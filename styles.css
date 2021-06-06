@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+body {
+  font-family: "Noto Sans", "sans-serif";
+  background: #e1e1e1;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .logo {
+  color: #423c39;
+  font-size: 3em;
+}
+
+.container .logo span {
+  color: #f2a184;
+}
+
+.container nav {
+  margin-top: 1em;
+  margin-right: 1rem;
+}
+
+.container nav input {
+  width: 500px;
+  height: 40px;
+  border: 0.2em solid #423c39;
+}
+
+.container nav .btn {
+  padding: 0.4em;
+  font-size: 2em;
+  margin-left: 1rem;
+  border-radius: 1em;
+  background-color: #f2a184;
+  border: none;
+  width: 10em;
+}
+
+.everything {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#d16ba5), color-stop(#c777b9), color-stop(#ba83ca), color-stop(#aa8fd8), color-stop(#9a9ae1), color-stop(#8aa7ec), color-stop(#79b3f4), color-stop(#69bff8), color-stop(#52cffe), color-stop(#41dfff), color-stop(#46eefa), to(#5ffbf1));
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  margin-top: 0;
+  height: 100vh;
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.everything section.city {
+  width: 30em;
+  height: 15em;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 2em;
+  position: relative;
+  margin-top: 4em;
+  margin-left: 0;
+}
+
+.everything section.city .city-container {
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.everything section.city .city-container h1 {
+  position: absolute;
+  margin-top: 0;
+  padding: 0;
+  font-size: 8em;
+}
+
+.everything section.time-day {
+  width: 30em;
+  height: 15em;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 2em;
+  position: absolute;
+  margin-top: 4em;
+  top: 20em;
+  right: 10em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.everything section.time-day .time-day-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.everything section.time-day .time-day-container h3 {
+  font-size: 3em;
+}
+
+.everything section.time-day .time-day-container h1 {
+  font-size: 2em;
+}
+
+section.degree {
+  width: 30em;
+  height: 15em;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 2em;
+  position: absolute;
+  margin-top: 4em;
+  top: 50em;
+  right: 10em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.degree .degree-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.degree h1 {
+  font-size: 5em;
+  position: relative;
+}
+
+section.degree h1 span {
+  font-size: 0.6em;
+  position: absolute;
+  top: -0.5em;
+  right: 1em;
+}
+
+section.discription {
+  width: 30em;
+  height: 15em;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 2em;
+  position: absolute;
+  left: 39%;
+  margin-top: 4em;
+  bottom: 10em;
+  right: 10em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.discription .discription-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.discription h1 {
+  font-size: 2em;
+}
+/*# sourceMappingURL=styles.css.map */
